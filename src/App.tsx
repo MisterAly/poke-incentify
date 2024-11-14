@@ -79,12 +79,12 @@ function App() {
                     style={{
                       transform: "scale(1.8)",
                       maskImage:
-                        "linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2))",
+                        "linear-gradient(to right bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2))",
                     }}
                   />
                 </div>
               </div>
-              {/*I left this mb-10 here so bigger pokemons didn't overflowed the name when in mobile*/}
+              {/*I left this mb-6 here so bigger pokemons didn't overflowed the name when in mobile*/}
               <div className="flex items-center justify-center mb-6">
                 <img
                   src={selectedPkmn.image}
